@@ -1,0 +1,75 @@
+[2025-09-18 21:17:15] INFO  Sample.Program - Iniciando SampleUpdater...
+[2025-09-18 21:17:19] INFO  Sample.MonitorUpdaterManagerSample - Iniciando las actualizaciones al monitor...
+[2025-09-18 21:17:19] ERROR Sample.MonitorUpdaterManagerSample - System.UriFormatException: Invalid URI: The format of the URI could not be determined.
+   at System.Uri.CreateThis(String uri, Boolean dontEscape, UriKind uriKind, UriCreationOptions& creationOptions)
+   at System.Uri..ctor(String uriString)
+   at Sample.FileUpdater.GetRelativePath(String filespec, String folder) in C:\Users\Unico\source\repos\SampleUpdater\SampleUpdater\FileUpdaterSample.cs:line 110
+   at Sample.FileUpdater.<>c__DisplayClass12_0.<UpdateFiles>b__0(String file) in C:\Users\Unico\source\repos\SampleUpdater\SampleUpdater\FileUpdaterSample.cs:line 141
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at Sample.FileUpdater.UpdateFiles(String sourceFolder, String targetFolder, String backupDir) in C:\Users\Unico\source\repos\SampleUpdater\SampleUpdater\FileUpdaterSample.cs:line 138
+[2025-09-18 21:17:19] INFO  Sample.MonitorUpdaterManagerSample - Realizando rollback de las actualizaciones al monitor...
+[2025-09-18 21:17:19] INFO  Sample.MonitorUpdaterManagerSample - Terminado rollback de las actualizaciones al monitor...
+[2025-09-18 21:17:19] INFO  Sample.Program - Package Version: 1.0.0
+[2025-09-18 21:17:19] INFO  Sample.Program - Proceso terminado.
+[2025-09-18 21:17:44] INFO  Sample.Program - Iniciando SampleUpdater...
+[2025-09-18 21:18:47] INFO  Sample.MonitorUpdaterManagerSample - Iniciando las actualizaciones al monitor...
+[2025-09-18 21:18:47] ERROR Sample.MonitorUpdaterManagerSample - System.UriFormatException: Invalid URI: The format of the URI could not be determined.
+   at System.Uri.CreateThis(String uri, Boolean dontEscape, UriKind uriKind, UriCreationOptions& creationOptions)
+   at System.Uri..ctor(String uriString)
+   at Sample.FileUpdater.GetRelativePath(String filespec, String folder) in C:\Users\Unico\source\repos\SampleUpdater\SampleUpdater\FileUpdaterSample.cs:line 110
+   at Sample.FileUpdater.<>c__DisplayClass12_0.<UpdateFiles>b__0(String file) in C:\Users\Unico\source\repos\SampleUpdater\SampleUpdater\FileUpdaterSample.cs:line 141
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at Sample.FileUpdater.UpdateFiles(String sourceFolder, String targetFolder, String backupDir) in C:\Users\Unico\source\repos\SampleUpdater\SampleUpdater\FileUpdaterSample.cs:line 138
+[2025-09-18 21:18:47] INFO  Sample.MonitorUpdaterManagerSample - Realizando rollback de las actualizaciones al monitor...
+[2025-09-18 21:18:47] INFO  Sample.MonitorUpdaterManagerSample - Terminado rollback de las actualizaciones al monitor...
+[2025-09-18 21:18:47] INFO  Sample.Program - Package Version: 1.0.0
+[2025-09-18 21:18:47] INFO  Sample.Program - Proceso terminado.
+[2025-09-18 21:19:43] INFO  Sample.Program - Iniciando SampleUpdater...
+[2025-09-18 21:21:25] INFO  Sample.MonitorUpdaterManagerSample - Iniciando las actualizaciones al monitor...
+[2025-09-18 21:21:25] ERROR Sample.MonitorUpdaterManagerSample - System.UriFormatException: Invalid URI: The format of the URI could not be determined.
+   at System.Uri.CreateThis(String uri, Boolean dontEscape, UriKind uriKind, UriCreationOptions& creationOptions)
+   at System.Uri..ctor(String uriString)
+   at Sample.FileUpdater.GetRelativePath(String filespec, String folder) in C:\Users\Unico\source\repos\SampleUpdater\SampleUpdater\FileUpdaterSample.cs:line 110
+   at Sample.FileUpdater.<>c__DisplayClass12_0.<UpdateFiles>b__0(String file) in C:\Users\Unico\source\repos\SampleUpdater\SampleUpdater\FileUpdaterSample.cs:line 141
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at Sample.FileUpdater.UpdateFiles(String sourceFolder, String targetFolder, String backupDir) in C:\Users\Unico\source\repos\SampleUpdater\SampleUpdater\FileUpdaterSample.cs:line 138
+[2025-09-18 21:21:25] INFO  Sample.MonitorUpdaterManagerSample - Realizando rollback de las actualizaciones al monitor...
+[2025-09-18 21:21:25] INFO  Sample.MonitorUpdaterManagerSample - Terminado rollback de las actualizaciones al monitor...
+[2025-09-18 21:21:25] INFO  Sample.Program - Package Version: 1.0.0
+[2025-09-18 21:21:25] INFO  Sample.Program - Proceso terminado.
+[2025-09-18 21:22:20] INFO  Sample.Program - === Iniciando prueba de actualización ===
+[2025-09-18 21:22:20] INFO  Sample.Program - Archivos preparados en C:\Users\Unico\AppData\Local\Temp\SampleUpdaterTest\origen y C:\Users\Unico\AppData\Local\Temp\SampleUpdaterTest\destino
+[2025-09-18 21:23:16] INFO  Sample.MonitorUpdaterManagerSample - Iniciando las actualizaciones al monitor...
+[2025-09-18 21:23:41] ERROR Sample.MonitorUpdaterManagerSample - System.NullReferenceException: Object reference not set to an instance of an object.
+   at Sample.FileUpdater.RemoveFile(String targetFile) in C:\Users\Unico\source\repos\SampleUpdater\SampleUpdater\FileUpdaterSample.cs:line 242
+   at Sample.FileUpdater.UpdateFiles(String sourceFolder, String targetFolder, String backupDir) in C:\Users\Unico\source\repos\SampleUpdater\SampleUpdater\FileUpdaterSample.cs:line 184
+[2025-09-18 21:23:41] INFO  Sample.MonitorUpdaterManagerSample - Realizando rollback de las actualizaciones al monitor...
+[2025-09-18 21:23:41] INFO  Sample.MonitorUpdaterManagerSample - Terminado rollback de las actualizaciones al monitor...
+[2025-09-18 21:23:41] INFO  Sample.Program - === Prueba terminada ===
+[2025-09-18 21:24:23] INFO  Sample.Program - === Iniciando prueba de actualización ===
+[2025-09-18 21:24:23] INFO  Sample.Program - Archivos preparados en C:\Users\Unico\AppData\Local\Temp\SampleUpdaterTest\origen y C:\Users\Unico\AppData\Local\Temp\SampleUpdaterTest\destino
+[2025-09-18 21:24:25] INFO  Sample.MonitorUpdaterManagerSample - Iniciando las actualizaciones al monitor...
+[2025-09-18 21:25:25] INFO  Sample.Program - === Iniciando prueba de actualización ===
+[2025-09-18 21:25:25] INFO  Sample.Program - Archivos preparados en C:\Users\Unico\AppData\Local\Temp\SampleUpdaterTest\origen y C:\Users\Unico\AppData\Local\Temp\SampleUpdaterTest\destino
+[2025-09-18 21:25:27] INFO  Sample.MonitorUpdaterManagerSample - Iniciando las actualizaciones al monitor...
+[2025-09-18 21:25:27] WARN  Sample.Program - El archivo a eliminar no existe: C:\Users\Unico\AppData\Local\Temp\SampleUpdaterTest\destino\data
+[2025-09-18 21:25:27] INFO  Sample.Program - Archivo copiado: C:\Users\Unico\AppData\Local\Temp\SampleUpdaterTest\origen\data.upd -> C:\Users\Unico\AppData\Local\Temp\SampleUpdaterTest\destino\data
+[2025-09-18 21:25:27] INFO  Sample.Program - Archivo copiado: C:\Users\Unico\AppData\Local\Temp\SampleUpdaterTest\origen\nuevo.add -> C:\Users\Unico\AppData\Local\Temp\SampleUpdaterTest\destino\nuevo
+[2025-09-18 21:25:27] INFO  Sample.MonitorUpdaterManagerSample - Actualizaciones al monitor terminadas...
+[2025-09-18 21:25:27] INFO  Sample.Program - === Prueba terminada ===
+[2025-09-18 21:26:36] INFO  Sample.Program - === Iniciando prueba de actualización ===
+[2025-09-18 21:26:36] INFO  Sample.Program - Archivos preparados en C:\Users\Unico\AppData\Local\Temp\SampleUpdaterTest\origen y C:\Users\Unico\AppData\Local\Temp\SampleUpdaterTest\destino
+[2025-09-19 11:32:36] INFO  Sample.MonitorUpdaterManagerSample - Iniciando las actualizaciones al monitor...
+[2025-09-19 11:32:37] WARN  Sample.Program - El archivo a eliminar no existe: C:\Users\Unico\AppData\Local\Temp\SampleUpdaterTest\destino\data
+[2025-09-19 11:32:37] INFO  Sample.Program - Archivo copiado: C:\Users\Unico\AppData\Local\Temp\SampleUpdaterTest\origen\data.upd -> C:\Users\Unico\AppData\Local\Temp\SampleUpdaterTest\destino\data
+[2025-09-19 11:32:37] INFO  Sample.Program - Archivo copiado: C:\Users\Unico\AppData\Local\Temp\SampleUpdaterTest\origen\nuevo.add -> C:\Users\Unico\AppData\Local\Temp\SampleUpdaterTest\destino\nuevo
+[2025-09-19 11:32:37] INFO  Sample.MonitorUpdaterManagerSample - Actualizaciones al monitor terminadas...
+[2025-09-19 11:32:37] INFO  Sample.Program - === Prueba terminada ===
+[2025-09-19 11:36:36] INFO  Sample.Program - === Iniciando prueba de actualización ===
+[2025-09-19 11:36:36] INFO  Sample.Program - Archivos preparados en C:\Users\Unico\AppData\Local\Temp\SampleUpdaterTest\origen y C:\Users\Unico\AppData\Local\Temp\SampleUpdaterTest\destino
+[2025-09-19 11:36:40] INFO  Sample.MonitorUpdaterManagerSample - Iniciando las actualizaciones al monitor...
+[2025-09-19 11:36:40] WARN  Sample.Program - El archivo a eliminar no existe: C:\Users\Unico\AppData\Local\Temp\SampleUpdaterTest\destino\data
+[2025-09-19 11:36:40] INFO  Sample.Program - Archivo copiado: C:\Users\Unico\AppData\Local\Temp\SampleUpdaterTest\origen\data.upd -> C:\Users\Unico\AppData\Local\Temp\SampleUpdaterTest\destino\data
+[2025-09-19 11:36:40] INFO  Sample.Program - Archivo copiado: C:\Users\Unico\AppData\Local\Temp\SampleUpdaterTest\origen\nuevo.add -> C:\Users\Unico\AppData\Local\Temp\SampleUpdaterTest\destino\nuevo
+[2025-09-19 11:36:40] INFO  Sample.MonitorUpdaterManagerSample - Actualizaciones al monitor terminadas...
+[2025-09-19 11:36:40] INFO  Sample.Program - === Prueba terminada ===
