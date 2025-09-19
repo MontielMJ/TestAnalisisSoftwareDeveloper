@@ -5,13 +5,6 @@ VisualStudioVersion = 17.10.35122.118
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SampleUpdater", "SampleUpdater\SampleUpdater.csproj", "{26EBC971-4128-4807-B5E7-4C9CDDFF1E20}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documents", "Documents", "{DC32EEBF-D58D-4DD2-9FA3-F0896DCFE82E}"
-	ProjectSection(SolutionItems) = preProject
-		..\..\..\Downloads\requerimiento-sprint\diagram _ secuencia.png = ..\..\..\Downloads\requerimiento-sprint\diagram _ secuencia.png
-		..\..\..\Downloads\requerimiento-sprint\diagrama _flujo.png = ..\..\..\Downloads\requerimiento-sprint\diagrama _flujo.png
-		..\..\..\Downloads\requerimiento-sprint\diagram_clases.png = ..\..\..\Downloads\requerimiento-sprint\diagram_clases.png
-	EndProjectSection
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

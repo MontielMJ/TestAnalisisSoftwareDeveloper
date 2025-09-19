@@ -1,0 +1,21 @@
+﻿################################################################################
+# Este archivo .gitignore ha sido creado automáticamente por Microsoft(R) Visual Studio.
+################################################################################
+
+/SampleUpdater/obj/Debug/net6.0
+/.vs/SampleUpdater/v17/.suo
+*.vsidx
+/SampleUpdater/obj/Debug/net6.0/SampleUpdater.pdb
+/SampleUpdater/obj/Debug/net6.0/SampleUpdater.dll
+/SampleUpdater/obj/Debug/net6.0/SampleUpdater.csproj.FileListAbsolute.txt
+/SampleUpdater/obj/Debug/net6.0/SampleUpdater.csproj.AssemblyReference.cache
+/SampleUpdater/obj/Debug/net6.0/SampleUpdater.AssemblyInfoInputs.cache
+/SampleUpdater/obj/Debug/net6.0/SampleUpdater.AssemblyInfo.cs
+/SampleUpdater/obj/Debug/net6.0/apphost.exe
+/SampleUpdater/obj/Debug/net6.0/refint/SampleUpdater.dll
+/SampleUpdater/obj/Debug/net6.0/ref/SampleUpdater.dll
+/SampleUpdater/bin/Debug/net6.0/SampleUpdater.pdb
+/SampleUpdater/bin/Debug/net6.0/SampleUpdater.exe
+/SampleUpdater/bin/Debug/net6.0/SampleUpdater.dll
+/.vs/SampleUpdater/v17/DocumentLayout.json
+/SampleUpdater/bin/Debug/net6.0/logs/SampleUpdater.log
